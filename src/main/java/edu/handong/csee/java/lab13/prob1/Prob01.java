@@ -6,8 +6,8 @@ public class Prob01 {
 		SchoolFriend friend2 = new SchoolFriend();
 		ClassFriend friend3 = new ClassFriend();
 		
-		InstanceOf.WhatFriend(friend1);
-		InstanceOf.WhatFriend(friend2);
-		InstanceOf.WhatFriend(friend3);
+		InstanceOf.whatFriend(friend1);
+		InstanceOf.whatFriend(friend2);
+		InstanceOf.whatFriend(friend3);
 	}
 }

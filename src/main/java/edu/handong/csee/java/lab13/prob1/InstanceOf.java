@@ -1,7 +1,7 @@
 package edu.handong.csee.java.lab13.prob1;
 
 public class InstanceOf {
-	public static void WhatFriend(Friend friend) {
+	public static void whatFriend(Friend friend) {
 		if(friend instanceof ClassFriend) {
 			((ClassFriend) friend).classFriend();
 		}
@@ -9,6 +9,6 @@ public class InstanceOf {
 			((SchoolFriend) friend).schoolFriend();
 		}
 		else
-			friend.JustFriend();
+			friend.justFriend();
 	}
 }
